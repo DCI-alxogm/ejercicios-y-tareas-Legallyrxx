@@ -23,8 +23,8 @@ int main(){
     θesf=atan2(y,x);
     ϕ=acos(z/resf);
     
-    printf("\nCoordenadas cilíndricas:(r=%.3f,θ=%.3frad,z=%.3f)\n",rcil,θcil,z);
-    printf("Coordenadas esféricas: (r=%.3f, θ=%.3f rad, ϕ=%.3f rad)\n",resf,θesf,ϕ);
+    printf("\nCoordenadas cilíndricas:(r=%f, θ=%f rad, z=%f)\n",rcil,θcil,z);
+    printf("Coordenadas esféricas: (r=%f, θ=%f rad, ϕ=%f rad)\n",resf,θesf,ϕ);
     
     return 0;
 }
