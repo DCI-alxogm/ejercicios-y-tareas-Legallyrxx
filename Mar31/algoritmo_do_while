@@ -1,0 +1,10 @@
+En la libreria stdio.h declararemos una variable en la cuál escanearemos su valor:
+ //printf("Ingrese un número positivo: ");
+   scanf("%d", &numero);
+   
+Pero si este es menor o igual a 0 nos seguirá pidiendo el valor hasta que este sea positivo:
+//if (numero <= 0) {
+  printf("El número ingresado no es positivo. Ingrsa otro.\n");
+  }
+  } while (numero <= 0);
+  printf("El número %d es positivo\n", numero);

@@ -1,0 +1,8 @@
+En la libreria stdio.h declararemos 3 variables (inicio, fin e incremento) y escanearemos su valor:
+//printf("Ingrese el valor inicial: ");
+    scanf("%d", &inicio); y así con final e incremento
+Con la función do se incrementará con el inicio hasta llegar al fin
+do {    printf("%d ", inicio);
+        inicio += incremento;
+    } while ((incremento > 0 && inicio <= fin) || (incremento < 0 && inicio >= fin));
+    printf("\n");

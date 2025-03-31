@@ -1,0 +1,11 @@
+           Libreria #include <stdio.h>
+                     ⬇️
+       Declaración de variable (int numero;)
+                     ⬇️
+      Imprimir "Ingrese un número positivo"
+                     ⬇️
+                 Escanearlo
+                     ⬇️
+Sí este es menor o igual a cero, seguir pidiendolo
+                     ⬇️
+Hasta que el número sea positivo termina el programa
