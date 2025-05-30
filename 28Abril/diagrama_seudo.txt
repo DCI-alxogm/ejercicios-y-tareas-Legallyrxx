@@ -1,0 +1,17 @@
+Inicio
+Decalrar variables nx,ny,i,j,delta,x,y
+Imprimir"Ingrese números de puntos en x"
+Leer nx
+Imprimir"Ingrese números de puntos en y"
+Leer ny
+Imprimir"Ingrese distancaia entre puntos(delta)"
+Leer delta
+Imprimir coordenadas generadas
+Para i desde 0 hasta nx-1
+Para j desde 0 hasta ny-1
+x-i.delta
+y-j.delta
+imprimir"("x","Y")"
+Fin
+Usa bucles añadidos i,j para recorrer filas y columnas x=i.delta y=j.delta
+calcula la posición
