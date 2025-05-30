@@ -1,0 +1,39 @@
+SEUDICÓDIGO, Tarea de vacaciones.
+
+Inicio
+
+.Imprimir "Calculadora de tiempo en MRU"
+.Imprimir "Posición inicial"
+.Leer 
+.Imprimir "Velocidad"
+.Leer
+.Imprimir "Posición final"
+.Leer
+.t = (xf - x0) / v
+.Imprimir "El tiempo que tarda en llegar es:"
+
+Fin
+
+DIAGRAMA DE FLUJO
+
+Inicio
+⬇️
+printf("Calculadora de tiempo en MRU"\n);
+⬇️
+printf("Posición inicial"\n);
+⬇️
+scanf("%f", &x0); 
+⬇️
+printf("Velocidad");
+⬇️
+scanf("%f", &v);
+⬇️
+printf("Posición final");
+⬇️
+scanf("%f", &xf);
+⬇️
+t = (xf - x0) / v
+⬇️
+Printf("El tiempo que tarda en llegar es:\n")
+⬇️
+Fin
